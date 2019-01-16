@@ -1,0 +1,28 @@
+{
+  "name": "samochody.pl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "dev": "NODE_ENV=development concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "PJ",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "cookie-session": "^2.0.0-beta.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.4",
+    "multer": "^1.4.1",
+    "nodemon": "^1.18.9",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth20": "^1.0.0",
+    "sendgrid": "^5.2.3",
+    "sharp": "^0.21.2"
+  }
+}
